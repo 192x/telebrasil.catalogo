@@ -1,0 +1,155 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+/*--------- Cabecalho-----*/
+#header{
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+}
+#headerContra{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#header img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding: 10px;
+}
+#headerContra img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding: 10px;
+}
+/*--------Container principal-----*/
+#idMain{
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color:#E6E7E8;
+    color:#E6E7E8 ;
+}
+/*-------NAV topo-----*/
+#cxnav{
+    background-color: #0EA19B;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+#navh1{
+    font-family: Arial Black;
+    text-transform: uppercase;
+    font-size: 144%;
+    text-align: center;
+    color: white;
+}
+#navul{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin:0 15px;
+}
+.navli{
+    flex: 1 1 30%;
+    display: block;
+    position:relative;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+    background-color: white;
+    padding: 5px 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    border-radius: 3px;
+}
+/*-------Catalogo-------*/
+
+#h1info{ /*Titulo das categorias*/
+    font-family: Arial Black;
+    color: white;
+    background-color: #0EA19B;
+    margin-top: 20px;
+    font-size: 135%;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#cxinfo,#cxCell,#cxJob{
+    /*
+    Caixa de categoria
+    Vai controlar os itens
+    */
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display:flex; /*Item vai ser flex*/
+    flex-wrap: wrap;
+}
+
+#cxitem{
+    background-color: white;
+    border: 1px solid rgb(66, 66, 66);
+    flex: 1 1 290px;
+    position: relative;
+    display: block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#cxitem img{
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+#cxitem h2{
+    font-family: Arial;
+    font-size: 120%;
+    text-align: center;
+    color: rgb(66, 66, 66);
+}
+
+#cxitem button{
+    font-size: 100%;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 0;
+    border: 1px solid #005f5c;
+    font-weight: bolder;
+    background-color: #0EA19B;
+    color: white;
+    border-radius: 3px;
+}
+
+#idfooter{
+    background-color: #0EA19B;
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+#idfooter h2,ul {
+    color: white;
+    font-family: Arial;
+    font-size: 80%;
+    text-align: left;
+}
