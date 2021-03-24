@@ -150,4 +150,6 @@ function loadItens(){
     cell.innerHTML+=itensCell
     var job = document.getElementById("cxJob")
     job.innerHTML+=itensJob
+    
+    
 }
