@@ -81,7 +81,8 @@ body{
 /*-------Catalogo-------*/
 
 #h1info{ /*Titulo das categorias*/
-    font-family: Arial Black;
+    font-family: Arial;
+    font-weigth:800;
     color: white;
     background-color: #0EA19B;
     margin-top: 20px;
