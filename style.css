@@ -173,9 +173,9 @@
     padding: 2px;
     color: rgb(68, 68, 68);
     font-weight: bolder;
-    font-size: 12pt;
+    font-size: 10pt;
     text-align: center;
-    margin: 5px;
+    margin: 3px;
     border-radius: 5px;
 }
 
@@ -194,6 +194,10 @@
     float: right;
 }
 @media only screen and (min-width: 600px) {
+    #tels li{
+        font-size: 12pt;
+        margin: 5px;
+    }
     #header img{
         width: 27%;
     }
