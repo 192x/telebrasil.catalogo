@@ -1,6 +1,6 @@
 var itensInfo = [
     `<ul class="cxitem">
-    <h2 class='h2Tit'>CAIXA DE SOM HOOPSON <span id="codSp">3563</span></h2>
+    <h2 class='h2Tit'>CAIXA HOOPSON <span id="codSp">3563</span></h2>
     <figure>
         <img src="3563.jpg">
         <figcaption>
