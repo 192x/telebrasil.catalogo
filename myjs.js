@@ -60,7 +60,7 @@ var itensInfo = [
     </ul>`,
 //tr ----------------------    
     `<ul class="cxitem">
-    <h2 class='h2Tit'>qqCAIXA DE SOM SK405 OEX <span id="codSp">2412</span></h2>
+    <h2 class='h2Tit'>CAIXA DE SOM SK405 OEX <span id="codSp">2412</span></h2>
     <figure>
         <img src="2412.jpg">
         <figcaption>
