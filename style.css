@@ -164,4 +164,7 @@ body{
     background-color: #E6E7E8;
     border: 1px solid #acacac;
     padding: 0 2px;
+    display: block;
+    position: relative;
+    float: right;
 }
