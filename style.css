@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 /*--------- Cabecalho-----*/
 #header{
     display: block;
@@ -11,7 +14,7 @@
     text-align: center;
     z-index: 2;
     background-color: white;
-    border-bottom: 2px solid #0EA19B;
+    border-bottom: 3px solid #0EA19B;
 }
 #headerContra{
     display: block;
@@ -42,14 +45,15 @@
     background-color:#E6E7E8;
     color:#E6E7E8 ;
 }
-/*-------NAV topo-----*/
+/*------------------------------------------NAV topo-----*/
 #cxnav{
     background-color: #0EA19B;
-    position: relative;
+    position: fixed;
     display: block;
     width: 100%;
+    z-index: 2;
 }
-#navh1{
+#cxnav #navh1{
     font-family: Arial;
     font-weight: 900;
     text-transform: uppercase;
@@ -57,23 +61,63 @@
     text-align: center;
     color: white;
 }
-#navul{
+#cxnav #navul{
     position: relative;
     display: flex;
     flex-wrap: nowrap;
-    margin:0 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
-.navli{
-    flex: 1 1 30%;
+#cxnav .navli{
+    flex: 1 1 auto;
     display: block;
     position:relative;
     text-align: center;
-    margin: 0px 5px 10px 5px;
+    margin: 5px;
     background-color: white;
     padding: 5px 10px;
+    font-size: 90%;
     font-family: Arial;
     font-weight: bold;
-    color: rgb(43, 43, 43);
+    color: rgb(71, 71, 71);
+    border-radius: 5px;
+}
+/*-------Catalogo-------*/
+/*------Contra-NAV topo-----*/
+#contraCxnav{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+#contraCxnav #navh1{
+    font-family: Arial;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 144%;
+    text-align: center;
+    color: white;
+}
+#contraCxnav #navul{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#contraCxnav .navli{
+    flex: 1 1 auto;
+    display: block;
+    position:relative;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 90%;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
     border-radius: 5px;
 }
 /*-------Catalogo-------*/
@@ -126,16 +170,23 @@
 
 .cxitem h2{
     font-family: Arial;
-    font-size: 120%;
-    text-align: center;
-    color: rgb(66, 66, 66);
+    font-size: 85%;
+    text-align: left;
+    color: rgb(27, 27, 27);
+}
+.cxitem h3{
+    font-family: Arial;
+    font-size: 75%;
+    text-align: left;
+    color: rgb(70, 70, 70);
+    margin: 4px 0 8px auto;
 }
 
 .cxitem button{
     font-size: 100%;
     display: block;
-    width: 50%;
-    margin: 0 auto;
+    width: 47%;
+    margin: 5px 0 auto 0;
     padding: 5px 0;
     border: 1px solid #005f5c;
     font-weight: bolder;
@@ -150,6 +201,7 @@
     position: relative;
     width: 100%;
     padding:15px 0;
+    z-index: 1;
 }
 #idfooter h2, #idfooter  ul {
     flex: 1 1 25%;
@@ -173,13 +225,11 @@
     padding: 2px;
     color: rgb(68, 68, 68);
     font-weight: bolder;
-    font-size: 10pt;
+    font-size: 100%;
     text-align: center;
-    margin: 3px;
+    margin: 5px;
     border-radius: 5px;
 }
-
-
 
 /*                                    / / / / / /  */
 
@@ -190,14 +240,11 @@
     border: 1px solid #acacac;
     padding: 0 2px;
     display: block;
-    position: relative;
-    float: right;
+    position: absolute;
+    bottom: 10px;
+    right:  20px;
 }
 @media only screen and (min-width: 600px) {
-    #tels li{
-        font-size: 12pt;
-        margin: 5px;
-    }
     #header img{
         width: 27%;
     }
@@ -212,4 +259,27 @@
     #headerContra img{
         width: 12%;
     }
+  }
+
+
+  /*redes sociais */
+  #redesSociais{
+      position: fixed;
+      display: block;
+      right: 0;
+      width: 0%;
+      top: 50%;
+      background-color: transparent;
+      z-index: 1;
+      border-radius: 8px 0 0 8px ;
+  }
+  #redesSociais ol{
+      list-style: none;
+  }
+  #redesSociais ol li{
+      padding: 2px;
+  }
+  #redesSociais ol li img{
+      width: 95%;
+      position: relative;
   }
