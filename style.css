@@ -153,8 +153,8 @@ a{
 
 .cxitem{
     background-color: white;
-    border: 1px solid rgb(66, 66, 66);
-    flex: 1 1 290px;
+    border: 2px solid rgb(136, 136, 136);
+    flex: 1 1 200px;
     position: relative;
     display: block;
     margin: 10px 20px;
@@ -176,25 +176,37 @@ a{
     color: rgb(27, 27, 27);
 }
 .cxitem h3{
-    font-family: Arial;
+    font-family: gadugi;
     font-size: 75%;
     text-align: left;
-    color: rgb(70, 70, 70);
-    margin: 4px 0 8px auto;
+    color: rgb(99, 99, 99);
+    margin: 4px 0 38px auto;
 }
 
 .cxitem button{
-    font-size: 100%;
+    position: absolute;
+    font-size: 90%;
     display: block;
     width: 47%;
-    margin: 5px 0 auto 0;
+    bottom: 15px;
+    left: 20px;
     padding: 5px 0;
-    border: 1px solid #005f5c;
     font-weight: bolder;
     background-color: #0EA19B;
     color: white;
     border-radius: 5px;
+    border: none;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    border-right: 3px solid rgb(82, 82, 82);
 }
+.cxitem button:focus {
+        border-top: 3px solid rgb(82, 82, 82);
+        border-left: 3px solid rgb(82, 82, 82);
+        border-bottom: none;
+        outline: none;
+        border-right: none;
+    }
+
 /*Roda pé*/
 #idfooter{
     background-color: #0EA19B;
