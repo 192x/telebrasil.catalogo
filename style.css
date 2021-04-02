@@ -5,6 +5,7 @@
 }
 a{
     text-decoration: none;
+    color: rgb(82, 82, 82);
 }
 /*--------- Cabecalho-----*/
 #header{
@@ -233,7 +234,7 @@ a{
 
 /*                                    / / / / / /  */
 
-#cxinfo #codSp{
+#cxinfo .codSp{
     font-size: 70%;
     font-weight: bolder;
     background-color: #E6E7E8;
@@ -242,6 +243,8 @@ a{
     display: block;
     position: absolute;
     bottom: 10px;
+    text-align: center;
+    width: 40px;
     right:  20px;
 }
 @media only screen and (min-width: 600px) {
