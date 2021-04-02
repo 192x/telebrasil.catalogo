@@ -171,7 +171,7 @@ var itensInfo = [
 
 <figure>
     <img src="1381.jpg">
-    <h2 class='h2Tit' id="" >REPETIDOE DE SINAL WI-FI TPLINK <input type="text" id="1381" class="codSp" value="1381"/></h2>
+    <h2 class='h2Tit' id="" >REPETIDOR WI-FI TPLINK <input type="text" id="1381" class="codSp" value="1381"/></h2>
     <h3>Texto teste, isso é um texto teste pra testar essa caixa de texto aqui, entt fique cinete de que é somente um teste.</h3>
     <figcaption>
     <button onclick="avPrd(1381)">Saber mais...</button>
@@ -732,6 +732,6 @@ function loadItens(){
 //Lincando itens
 
 function avPrd(myp){
-        open(`https://api.whatsapp.com/send?phone=5562982631109&text=Testando... Cod.${myp}`)
+ alert(myp)
     
 }
