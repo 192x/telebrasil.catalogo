@@ -83,6 +83,8 @@ a{
     font-weight: bold;
     color: rgb(71, 71, 71);
     border-radius: 5px;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    border-right: 3px solid rgb(82, 82, 82);
 }
 /*-------Catalogo-------*/
 /*------Contra-NAV topo-----*/
@@ -120,6 +122,8 @@ a{
     font-weight: bold;
     color: rgb(71, 71, 71);
     border-radius: 5px;
+    border-bottom: 3px solid rgb(82, 82, 82);
+    border-right: 2px solid rgb(82, 82, 82);
 }
 /*-------Catalogo-------*/
 
@@ -197,11 +201,11 @@ a{
     border-radius: 5px;
     border: none;
     border-bottom: 3px solid rgb(82, 82, 82);
-    border-right: 3px solid rgb(82, 82, 82);
+    border-right: 2px solid rgb(82, 82, 82);
 }
 .cxitem button:focus {
         border-top: 3px solid rgb(82, 82, 82);
-        border-left: 3px solid rgb(82, 82, 82);
+        border-left: 2px solid rgb(82, 82, 82);
         border-bottom: none;
         outline: none;
         border-right: none;
@@ -254,7 +258,33 @@ a{
     padding: 0 2px;
     display: block;
     position: absolute;
-    bottom: 10px;
+    bottom: 16px;
+    text-align: center;
+    width: 40px;
+    right:  20px;
+}
+#cxCell .codSp{
+    font-size: 70%;
+    font-weight: bolder;
+    background-color: #E6E7E8;
+    border: 1px solid #acacac;
+    padding: 0 2px;
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    width: 40px;
+    right:  20px;
+}
+#cxJob .codSp{
+    font-size: 70%;
+    font-weight: bolder;
+    background-color: #E6E7E8;
+    border: 1px solid #acacac;
+    padding: 0 2px;
+    display: block;
+    position: absolute;
+    bottom: 16px;
     text-align: center;
     width: 40px;
     right:  20px;
