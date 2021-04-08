@@ -1,9 +1,3 @@
-setTimeout(vredes,2000)
-function vredes(){
-    document.getElementById('redesSociais').style.width='8%'
-}
-
-
 var itensInfo = [
     `<ul class="cxitem">
     
@@ -702,57 +696,73 @@ itensCell.sort()
 
 var itensJob = [
     `<ul class="cxitem">
-    <h2>Visita Técnica - 0100</h2>
+
     <figure>
+        <img src="3972.jpg">
+        <h2 class='h2Tit' id="" >Job info.<input type="text" id="0000" class="codSp" value="0000"/></h2>
+        <h3>Texto teste, isso é um texto teste para testar essa caixa de texto, fique ciente de que é somente um teste.</h3>
         <figcaption>
-            <button onclick="avPrd()">Saber mais...</button>
+        <button onclick="avPrd(0000)">Saber mais...</button>
         </figcaption>
     </figure>
-</ul>`,
+    </ul>`,
 //tr ----------------------
 
     `<ul class="cxitem">
-    <h2>Formatação sem Backup - 0102</h2>
+
     <figure>
+        <img src="3972.jpg">
+        <h2 class='h2Tit' id="" >Job info.<input type="text" id="0000" class="codSp" value="0000"/></h2>
+        <h3>Texto teste, isso é um texto teste para testar essa caixa de texto, fique ciente de que é somente um teste.</h3>
         <figcaption>
-            <button onclick="avPrd()">Saber mais...</button>
+        <button onclick="avPrd(0000)">Saber mais...</button>
         </figcaption>
     </figure>
-</ul>`,
+    </ul>`,
 //tr ----------------------
 
     `<ul class="cxitem">
-    <h2>Formatação com Backup - 0100</h2>
+
     <figure>
+        <img src="3972.jpg">
+        <h2 class='h2Tit' id="" >Job info.<input type="text" id="0000" class="codSp" value="0000"/></h2>
+        <h3>Texto teste, isso é um texto teste para testar essa caixa de texto, fique ciente de que é somente um teste.</h3>
         <figcaption>
-            <button onclick="avPrd()">Saber mais...</button>
+        <button onclick="avPrd(0000)">Saber mais...</button>
         </figcaption>
     </figure>
-</ul>`,
+    </ul>`,
 //tr ----------------------
 ]
 itensJob.sort()
 
 setTimeout(iloadItens,0)
-function iloadItens(){
-    info = document.getElementById("cxinfo")
-    info.innerHTML+=itensInfo
+    function iloadItens(){
+        info = document.getElementById("cxinfo")
+        info.innerHTML+=itensInfo
 }
 setTimeout(cloadItens,0)
-function cloadItens(){
-    cell = document.getElementById("cxCell")
-    cell.innerHTML+=itensCell
+    function cloadItens(){
+        cell = document.getElementById("cxCell")
+        cell.innerHTML+=itensCell
 }
 setTimeout(sloadItens,0)
-function sloadItens(){
-    job = document.getElementById("cxJob")
-    job.innerHTML+=itensJob
+    function sloadItens(){
+        job = document.getElementById("cxJob")
+        job.innerHTML+=itensJob
 }
-
 
 //Lincando itens
 
 function avPrd(myp){
- alert(myp)
-    
 }
+
+
+/*
+
+    var capttit = document.querySelector(".codSp").textContent
+    if (capttit == myp) {
+        alert(`${myp} é igual ${mypTit}`)
+    }
+
+*/
