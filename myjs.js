@@ -512,7 +512,7 @@ var itensJob = [
     <figure>
         <img src="formatacao.png">
         <h2 class='h2Tit'>Formatação<input type="text" class="codSp" value="1002"/></h2>
-        <h3>Formatação limpa, e detalhada visando alcançar o maximo de desempenho que o seu computador (Desktop/Notebook) permite.</h3>
+        <h3>Formatação limpa e detalhada visando alcançar o maximo de desempenho que o seu computador (Desktop/Notebook) permite.</h3>
         <figcaption>
         <button><a href='https://api.whatsapp.com/send?phone=5562993178806&text=Olá, quero saber mais sobre seu produto,  - COD.1002  ' target='_Blank'>Saber mais...</a></button>
         </figcaption>
