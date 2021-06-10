@@ -188,7 +188,7 @@ body{
     margin:8px auto;
 }
 .cxitem h3{
-    font-family: Gadugi, sans-serif;
+    font-family: Gadugi, Arial, Helvetica, sans-serif;
     font-size: 75%;
     text-align: left;
     color: rgb(99, 99, 99);
@@ -348,3 +348,20 @@ body{
       width: 95%;
       position: relative;
   }
+
+
+  #whatsCb{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 35.5px;
+}
+#whatsCb img{
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 0px 10px 10px 10px;
+    top: 10px;
+    left: 10px;
+}
