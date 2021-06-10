@@ -29,6 +29,7 @@ body{
     width: 100%;
     text-align: center;
     border-bottom: 2px solid #0EA19B;
+    visibility: hidden;
 }
 #header img{
     position: relative;
