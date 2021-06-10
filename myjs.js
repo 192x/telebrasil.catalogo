@@ -545,6 +545,20 @@ var itensJob = [
     </figure>
     </ul>`,
 //tr ----------------------
+    //tr ----------------------
+
+`<ul class="cxitem">
+
+<figure>
+    <img src="cell.png">
+    <h2 class='h2Tit'>Assistência técnica especializada<input type="text" class="codSp" value="1005"/></h2>
+    <h3>Assistência técnica especializada em todas as marcas de smartphones, realizamos reparos avançados em placas, troca de telas, baterias, e demais peças.</h3>
+    <figcaption>
+    <button><a href='https://api.whatsapp.com/send?phone=5562993178806&text=Olá, quero saber mais sobre seu reparo em smartphones, e tablets... ' target='_Blank'>Saber mais...</a></button>
+    </figcaption>
+</figure>
+</ul>`,
+//tr ----------------------
 ]
 itensJob.sort()
 
